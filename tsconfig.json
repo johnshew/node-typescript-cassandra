@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./lib",
+        "sourceMap": true
+    },
+    "exclude": [
+        "node_modules",
+        "data-model"
+    ]
+}
