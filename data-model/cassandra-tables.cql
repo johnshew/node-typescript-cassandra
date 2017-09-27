@@ -34,3 +34,7 @@ create materialized view reminders_by_next_notification as
   primary key (next_notification, reminder_id)
   with clustering order by ( next_notification asc );
   
+insert into reminders (reminder_id, user_id, next_notification, last_notification, description) values(now(), 01234567-0123-0123-0123-0123456789ab, dateOf(now()), '2000-01-01', 'empty fridge');
+insert into reminders (reminder_id, user_id, next_notification, last_notification, description) values(now(), 01234567-0123-0123-0123-0123456789ab, dateOf(now()), '2000-01-01', 'run');
+insert into reminders (reminder_id, user_id, next_notification, last_notification, description) values(now(), 01234567-0123-0123-0123-0123456789ab, dateOf(now()), '2000-01-01', 'swim');
+ 
