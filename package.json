@@ -1,0 +1,20 @@
+{
+  "name": "cassandra-node-typescript",
+  "version": "1.0.0",
+  "description": "example of node access to cassandra in typescript",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cassandra-driver": "^0.8.12",
+    "@types/restify": "^5.0.2",
+    "typescript": "^2.4.2"
+  },
+  "dependencies": {
+    "cassandra-driver": "^3.2.2",
+    "restify": "^5.2.0"
+  }
+}
